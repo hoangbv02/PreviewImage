@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #3575d1, #7d4ed4);
+    display: flex;
+    justify-content: center;
+}
+
+.preview{
+    margin-top: 100px;
+    width: 500px;
+    height: 350px;
+    border: 4px dashed #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+
+.preview i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.preview span{
+    font-size: 22px;
+}
+
+.preview img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
